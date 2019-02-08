@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Rozszerzenie zmiany układu",
+  "description": "To rozszerzenie zmienia układ w edytorze",
+  "version": "1.0",
+ 
+  "permissions": [
+    "tabs", "storage", "declarativeContent", "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "images/menu.png",
+    "default_popup": "popup.html"
+  }
+} 
